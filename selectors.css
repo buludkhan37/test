@@ -1,0 +1,40 @@
+
+body {
+    background: #eee;
+}
+
+.card {
+    padding: 10px;
+    background: #fff;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 14px;
+}
+
+.html {
+    background: #e56027;
+    color: white;
+}
+
+.css {
+    background: #2449d8;
+    color: white;
+}
+
+#header {
+    background: #ddd;
+    padding: 10px;
+    border: 1px solid gray;
+}
+
+#header h3 {
+    text-align: center;
+}
+
+#header, .card {
+    margin-bottom: 10px;
+}
+
+

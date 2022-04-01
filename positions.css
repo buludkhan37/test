@@ -1,0 +1,47 @@
+
+.container {
+    max-width: 100%;
+    margin: auto;
+}
+
+@media (max-width: 320px) {
+    .navbar {
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .card {
+        font-size: 15px;
+    }
+}
+
+#header {
+    margin-top: 60px;
+}
+
+.card summary {
+   display:inline-block;
+   padding: .1em .3em .2em .4em;
+   font-size: 1em;
+   cursor: pointer;
+}
+
+summary:before {  
+    content: "+";
+    margin-right: .2em;
+}
+
+details[open] > summary:before {
+    content: "–";
+  }
+  summary ~ * {
+     padding:0 1em 0 1em;
+  }
+  summary:focus {
+    outline:0;
+    /* box-shadow: inset 0 0 1px rgba(0,0,0,0.3), inset 0 0 2px rgba(0,0,0,0.3); */
+  }
+  details{
+    display:block;
+    margin-bottom: .5rem;
+  }
